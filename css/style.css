@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,11 +7,12 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #f5f5f7;   
-    color: #1d1d1f;         
+    background: #f5f5f7;
+    color: #1d1d1f;
     line-height: 1.6;
 }
 
+/*HEADER & NAVIGATION */
 header {
     background: rgba(250, 250, 250, 0.9);
     backdrop-filter: blur(10px);
@@ -18,41 +20,36 @@ header {
     width: 100%;
     top: 0;
     z-index: 100;
-    padding: 0.8rem 2rem;   
-    min-height: 60px;       
+    padding: 0.8rem 2rem;
+    min-height: 60px;
     box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    margin-left: 2rem;
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
 .apple-logo-img {
-    height: 40px;          
+    height: 40px;
     width: auto;
-    vertical-align: middle; 
-    margin-right: 10px;    
-}
-
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-left: 2rem;
-    display: flex;        
-    align-items: center;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 nav ul {
     list-style: none;
-    float: right;
-    margin-right: 2rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
     margin-left: 2rem;
 }
 
@@ -60,6 +57,7 @@ nav a {
     text-decoration: none;
     color: #1d1d1f;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 nav a.active,
@@ -67,6 +65,7 @@ nav a:hover {
     color: #0071e3;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     padding: 2rem;
@@ -75,7 +74,7 @@ footer {
     margin-top: 4rem;
 }
 
-/*INDEX.HTML (Home Page)*/
+/*  HOME PAGE */
 .hero {
     text-align: center;
     margin-top: 80px;
@@ -110,8 +109,8 @@ footer {
 }
 
 .new-hero {
-    background: #fafafa; 
-    padding: 100px 2rem 4rem;
+    background: linear-gradient(to bottom, #e5f2ff, #f0f8ff); 
+    padding: 100px 2rem 6rem;
     text-align: center;
 }
 
@@ -120,7 +119,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     max-width: 1400px;
-    margin: 0 auto 6rem;
+    margin: 0 auto;
 }
 
 .hero-item h2 {
@@ -145,9 +144,8 @@ footer {
 
 .btn-primary {
     background: #0071e3;
-    color: #ffffff;
+    color: #fff;
 }
-
 
 .btn-secondary {
     border: 1px solid #0071e3;
@@ -178,14 +176,75 @@ footer {
 .members {
     list-style: none;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
-.members {
-    list-style: none;
-    font-size: 1.4rem;
+.featured-products {
+    padding: 6rem 2rem;
+    background: #f5f5f7;
     text-align: center;
 }
+
+.featured-products h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.featured-products p {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: #6e6e73;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    color: #6e6e73;
+}
+
+.view-all-btn {
+    display: inline-block;
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    color: #0071e3;
+    text-decoration: none;
+}
+
+.view-all-btn:hover {
+    text-decoration: underline;
+}
+
 /*kashaf*/
 */
 .product-card {
