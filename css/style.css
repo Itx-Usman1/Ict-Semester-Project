@@ -74,3 +74,38 @@ footer {
     color: #fff;
     margin-top: 4rem;
 }
+/*kashaf*/
+*/
+.product-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+    display: flex;                  
+    flex-direction: column;         
+    justify-content: space-between; 
+    height: 100%;                   
+}
+
+
+
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0071e3;
+    margin: 1rem 0;
+}
