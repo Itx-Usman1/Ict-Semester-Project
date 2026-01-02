@@ -253,3 +253,34 @@ section.featured-products th:nth-child(3) {
 section.featured-products tr:last-child td {
     border-bottom: none;
 }
+
+#cart-items .product-card {
+    padding: 1.5rem;               /* Kam padding */
+    display: flex;
+    flex-direction: row;           /* Image left, text right (optional, agar image add karna ho to) */
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;                     /* Space between elements */
+    min-height: 120px;             /* Fixed small height */
+}
+
+#cart-items .product-card h3 {
+    font-size: 1.6rem;             /* Heading thoda chhota */
+    margin: 0;
+}
+
+#cart-items .product-card p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+#cart-items .price {
+    font-size: 1.6rem;
+    color: #0071e3;
+    font-weight: bold;
+}
+
+/* Agar image nahi hai to text left pe */
+#cart-items .product-card {
+    text-align: left;
+}
