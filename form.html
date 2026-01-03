@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store - Contact</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+    <img src="images/applelogo.jpg" alt="Apple Logo" class="apple-logo-img">
+    Apple Store
+</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="table.html">Price List</a></li>
+                <li><a href="form.html" class="active">Contact</a></li>
+               <li><a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+        </nav>
+    </header>
+
+    <section class="container form-section">
+    <h1>Contact Us</h1>
+    
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="product">Interested Product:</label>
+            <select id="product">
+                <option value="">Select...</option>
+                <option value="iphone">iPhone</option>
+                <option value="macbook">MacBook</option>
+                <option value="ipad">iPad</option>
+                <option value="watch">Apple Watch</option>
+                <option value="Iphone 16">Iphone 16</option>
+                <option value="Iphone 16 pro">Iphone 16 pro</option>
+                <option value="Iphone 16 pro max">Iphone 16 pro max</option>
+                <option value="Iphone 15">Iphone 15</option>
+                <option value="Iphone 15 pro">Iphone 15 pro</option>
+                <option value="Iphone 15 pro max">Iphone 15 pro max</option>
+                <option value="Mac M1 ultra">Mac M1 ultra </option>
+                <option value="Keyboard">Keyboard</option>
+                <option value="Air tag">Air tag </option>
+                <option value="Apple vision pro 2">Apple vision pro 2</option>
+                <option value="Airpods pro">AirPods pro</option>
+            </select>
+
+           
+   
+            <label for="phone-radio">Phone</label>
+           
+<input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message (optional):</label>
+            <textarea id="message" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Apple Store Project</p>
+    </footer>
+
+    <script href="script.js"></script>
+</body>
+</html>
