@@ -244,6 +244,8 @@ footer {
 .view-all-btn:hover {
     text-decoration: underline;
 }
+
+/* Add to Cart Button - Blue, Rounded, Fixed at Bottom */
 .add-to-cart-btn {
     background: #0071e3;           /* Apple blue */
     color: white;
@@ -254,8 +256,9 @@ footer {
     font-weight: 600;
     cursor: pointer;
     margin-top: auto;              /* Yeh button ko bottom pe fix karega */
-    ;
+
 }
+
 .product-card {
     background: #fff;
     border-radius: 18px;
