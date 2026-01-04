@@ -244,3 +244,62 @@ footer {
 .view-all-btn:hover {
     text-decoration: underline;
 }
+.add-to-cart-btn {
+    background: #0071e3;           /* Apple blue */
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 999px;          /* Fully rounded */
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: auto;              /* Yeh button ko bottom pe fix karega */
+    ;
+}
+.product-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+    display: flex;                  /* Important for positioning */
+    flex-direction: column;         /* Stack content vertically */
+    justify-content: space-between; /* Button ko bottom pe push karega */
+    height: 100%;                   /* Sab cards same height */
+}
+
+
+
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0071e3;
+    margin: 1rem 0;
+}
+
+/* Add to Cart Button - Blue, Rounded, Fixed at Bottom */
+.add-to-cart-btn {
+    background: #0071e3;           /* Apple blue */
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 999px;          /* Fully rounded */
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: auto;              /* Yeh button ko bottom pe fix karega */
+
+}
