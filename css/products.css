@@ -306,3 +306,10 @@ footer {
     margin-top: auto;              /* Yeh button ko bottom pe fix karega */
 
 }
+video{
+     width: 100%;
+    height: 200%;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+
+}
