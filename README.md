@@ -31,4 +31,31 @@ The goal was to practice fundamental web development skills by recreating the cl
 ---
 
 ## Repository Structure
+Ict-Semester-Project/
+├── index.html              # Homepage
+├── script.js               # Any JavaScript functionality
+├── css/                    # All stylesheet files
+├── html/                   # Additional pages (products.html, etc.)
+├── images/                 # Product images, hero banners, logos
+├── LICENSE                 # Project license
+└── README.md               # This file
+text---
 
+## Technologies Used
+
+- **HTML5** – Semantic structure
+- **CSS3** – Styling, layout, and responsive design
+- **JavaScript** – Basic interactivity (if added)
+- **GitHub Pages** – Free hosting and deployment
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/itx-usman1/Ict-Semester-Project.git
+
+Open index.html in your browser (or use Live Server in VS Code).
+
+No installation or build tools needed!
